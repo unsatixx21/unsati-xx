@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>форми завдання</title>
+</head>
+<body>
+    <!-- форма підписки на розсилку -->
+    <h2>підпишіться на розсилку</h2>
+    <form>
+        <label>e-mail: 
+            <input type="email" placeholder="введіть ваш e-mail">
+        </label>
+        <button type="submit">підписатися</button>
+    </form>
+
+    <hr>
+
+    <!-- анкета відвідувача ресторану -->
+    <h2>анкета відвідувача ресторану</h2>
+    <form>
+        <!-- контактна інформація -->
+        <label>ім'я: <input type="text"></label><br>
+        <label>телефон: <input type="tel" placeholder="000-000-00-00"></label><br>
+        <label>email: <input type="email"></label><br>
+        <label>дата відвідування: <input type="date"></label><br><br>
+
+        <!-- персональна інформація -->
+        <label>вік: <input type="number"></label><br>
+        <label>улюблена кухня: <input type="text"></label><br>
+        <label>які ще страви ви б хотіли бачити в меню?</label><br>
+        <textarea></textarea><br><br>
+
+        <!-- оцінка закладу -->
+        <p>чому ви обрали наш заклад?</p>
+        <label><input type="checkbox"> поряд з місцем роботи</label><br>
+        <label><input type="checkbox"> побачив рекламу</label><br>
+        <label><input type="checkbox"> порадили друзі</label><br>
+        <label><input type="checkbox"> найкраще співвідношення ціни і якості</label><br><br>
+
+        <p>чи будете ви рекомендувати наш заклад своїм знайомим?</p>
+        <label><input type="radio" name="recommend"> так</label>
+        <label><input type="radio" name="recommend"> ні</label><br><br>
+
+        <button type="submit">відправити</button>
+    </form>
+</body>
+</html>
